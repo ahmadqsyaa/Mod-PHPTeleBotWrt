@@ -138,7 +138,7 @@ if [[ $1 == "i" ]]; then
 
 	# Cloning repo
 	echo -e "Downloading $TLNAME files..."
-	git clone https://github.com/ahmadqsyaa/Mod-PHPTeleBotWrt/tree/beta "$INSDIR"
+	git clone https://github.com/ahmadqsyaa/Mod-PHPTeleBotWrt "$INSDIR"
 	wget -q -O /usr/bin/ht-api https://raw.githubusercontent.com/ahmadqsyaa/hw-tools-script/ht-api/ht-api
 	if [ $? -eq 0 ]; then
 		echo -e "$TLNAME downloaded successfully."
