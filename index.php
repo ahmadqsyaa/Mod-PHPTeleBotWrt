@@ -812,7 +812,7 @@ $bot->cmd("/countSMS", function () {
 		,$GLOBALS["options"]);
 		Bot::sendMessage(
 			$GLOBALS["banner"] . "\n" .
-		    "<b>" . shell_exec("ht-api -C") . "</b>"
+		    "<b>" . shell_exec("ht-api -c") . "</b>"
 			. "\n\n" . $GLOBALS["randAds"]
 			,$GLOBALS["options"]);
 });
